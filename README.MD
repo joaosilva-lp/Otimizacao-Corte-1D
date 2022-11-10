@@ -1,9 +1,8 @@
-1D Stock Cutting
+Ferramenta de Corte 1D
 ================
 
-This project is the first tool developped in order to be more efficient and help reduce waste
-in our metalworking and woodworking shops.
+Este projeto foi desenvolvido no sentido de diminuir o desperdício em trabalhos de metalurgia, carpintaria, etc.
 
-[Demo here](https://esaaalab.github.io/1DStockCutting/)
+[Demo aqui](https://esaaalab.github.io/1DStockCutting/)
 
 Bin packing algorithm ported from [Martin Broadhurst](http://www.martinbroadhurst.com/bin-packing.html)
