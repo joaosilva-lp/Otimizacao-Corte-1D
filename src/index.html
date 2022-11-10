@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title></title>
+  <title>Ferramenta de Corte 1D</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -28,12 +28,12 @@
       <div class="printRemove">
         <md-sidenav class="md-sidenav-left" md-component-id="left" md-is-locked-open="$mdMedia('gt-xs')" md-whiteframe="4">
           <md-toolbar layout="row">
-            <h1 class="md-toolbar-tools">{{'TITLE' | translate}}</h1>
+            <h1 class="md-toolbar-tools">{{'TÍTULO' | translate}}</h1>
             <md-button class="md-small" aria-label="{{'TITLE_UPLOAD_ARIA' | translate}}" ngf-select="uploadProject($file);" accept="application/json" ngf-max-height="1000" ngf-max-size="1MB">
               <md-tooltip md-direction="down">
                 {{'TITLE_UPLOAD_ARIA' | translate}}
               </md-tooltip>
-              <md-icon md-font-set="material-icons">file_upload</md-icon>
+              <md-icon md-font-set="material-icons">Upload de Ficheiro</md-icon>
             </md-button>
             <md-button type="file" accept="text/json" class="md-small" aria-label="{{'TITLE_DOWNLOAD_ARIA' | translate}}" ng-click="downloadProject();">
               <md-tooltip md-direction="down">
